@@ -87,7 +87,6 @@
           </LineStyle>
         </Style>
         <LineString>
-          <tessellate>1</tessellate>
           <coordinates>-14.405821,-7.963539 -14.381448,-7.975707</coordinates>
         </LineString>
       </Placemark>
@@ -106,7 +105,6 @@
           </LineStyle>
         </Style>
         <Polygon>
-          <tessellate>1</tessellate>
           <outerBoundaryIs>
             <LinearRing>
               <coordinates>

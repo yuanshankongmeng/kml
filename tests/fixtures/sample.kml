@@ -134,7 +134,6 @@
         </LookAt>
         <styleUrl>#downArrowIcon</styleUrl>
         <Point>
-          <altitudeMode>relativeToGround</altitudeMode>
           <coordinates>-122.084075,37.4220033612141,50</coordinates>
         </Point>
       </Placemark>
@@ -153,8 +152,6 @@
         </LookAt>
         <styleUrl>#globeIcon</styleUrl>
         <Point>
-          <extrude>1</extrude>
-          <altitudeMode>relativeToGround</altitudeMode>
           <coordinates>-122.0857667006183,37.42156927867553,50</coordinates>
         </Point>
       </Placemark>
@@ -455,7 +452,6 @@ Simple Tables:<br>
           <range>2889.145007690472</range>
         </LookAt>
         <LineString>
-          <tessellate>1</tessellate>
           <coordinates> -112.0814237830345,36.10677870477137,0
             -112.0870267752693,36.0905099328766,0 </coordinates>
         </LineString>
@@ -473,7 +469,6 @@ Simple Tables:<br>
           <range>2889.145007690472</range>
         </LookAt>
         <LineString>
-          <tessellate>0</tessellate>
           <coordinates> -112.080622229595,36.10673460007995,0
             -112.085242575315,36.09049598612422,0 </coordinates>
         </LineString>
@@ -492,9 +487,7 @@ Simple Tables:<br>
         </LookAt>
         <styleUrl>#transPurpleLineGreenPoly</styleUrl>
         <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>absolute</altitudeMode>
-          <coordinates> -112.265654928602,36.09447672602546,2357
+          <coordinates>-112.265654928602,36.09447672602546,2357
             -112.2660384528238,36.09342608838671,2357
             -112.2668139013453,36.09251058776881,2357
             -112.2677826834445,36.09189827357996,2357
@@ -521,9 +514,6 @@ Simple Tables:<br>
         </LookAt>
         <styleUrl>#yellowLineGreenPoly</styleUrl>
         <LineString>
-          <extrude>1</extrude>
-          <tessellate>1</tessellate>
-          <altitudeMode>absolute</altitudeMode>
           <coordinates> -112.2550785337791,36.07954952145647,2357
             -112.2549277039738,36.08117083492122,2357
             -112.2552505069063,36.08260761307279,2357
@@ -551,9 +541,7 @@ Simple Tables:<br>
         </LookAt>
         <styleUrl>#thickBlackLine</styleUrl>
         <LineString>
-          <tessellate>1</tessellate>
-          <altitudeMode>relativeToGround</altitudeMode>
-          <coordinates> -112.2532845153347,36.09886943729116,645
+          <coordinates>-112.2532845153347,36.09886943729116,645
             -112.2540466121145,36.09919570465255,645
             -112.254734666947,36.09984998366178,645
             -112.255493345654,36.10051310621746,645
@@ -580,10 +568,7 @@ Simple Tables:<br>
         </LookAt>
         <styleUrl>#redLineBluePoly</styleUrl>
         <LineString>
-          <extrude>1</extrude>
-          <tessellate>1</tessellate>
-          <altitudeMode>relativeToGround</altitudeMode>
-          <coordinates> -112.2656634181359,36.09445214722695,630
+          <coordinates>-112.2656634181359,36.09445214722695,630
             -112.2652238941097,36.09520916122063,630
             -112.2645079986395,36.09580763864907,630
             -112.2638827428817,36.09628572284063,630
@@ -619,11 +604,9 @@ Simple Tables:<br>
           <visibility>0</visibility>
           <styleUrl>#transRedPoly</styleUrl>
           <Polygon>
-            <extrude>1</extrude>
-            <altitudeMode>relativeToGround</altitudeMode>
             <outerBoundaryIs>
               <LinearRing>
-                <coordinates> -122.0848938459612,37.42257124044786,17
+                <coordinates>-122.0848938459612,37.42257124044786,17
                   -122.0849580979198,37.42211922626856,17
                   -122.0847469573047,37.42207183952619,17
                   -122.0845725380962,37.42209006729676,17
@@ -654,11 +637,9 @@ Simple Tables:<br>
           <visibility>0</visibility>
           <styleUrl>#transBluePoly</styleUrl>
           <Polygon>
-            <extrude>1</extrude>
-            <altitudeMode>relativeToGround</altitudeMode>
             <outerBoundaryIs>
               <LinearRing>
-                <coordinates> -122.0857412771483,37.42227033155257,17
+                <coordinates>-122.0857412771483,37.42227033155257,17
                   -122.0858169768481,37.42231408832346,17
                   -122.085852582875,37.42230337469744,17
                   -122.0858799945639,37.42225686138789,17
@@ -686,11 +667,9 @@ Simple Tables:<br>
           <visibility>0</visibility>
           <styleUrl>#transGreenPoly</styleUrl>
           <Polygon>
-            <extrude>1</extrude>
-            <altitudeMode>relativeToGround</altitudeMode>
             <outerBoundaryIs>
               <LinearRing>
-                <coordinates> -122.0857862287242,37.42136208886969,25
+                <coordinates>-122.0857862287242,37.42136208886969,25
                   -122.0857312990603,37.42136935989481,25
                   -122.0857312992918,37.42140934910903,25
                   -122.0856077073679,37.42138390166565,25
@@ -723,11 +702,9 @@ Simple Tables:<br>
           <visibility>0</visibility>
           <styleUrl>#transYellowPoly</styleUrl>
           <Polygon>
-            <extrude>1</extrude>
-            <altitudeMode>relativeToGround</altitudeMode>
             <outerBoundaryIs>
               <LinearRing>
-                <coordinates> -122.0844371128284,37.42177253003091,19
+                <coordinates>-122.0844371128284,37.42177253003091,19
                   -122.0845118855746,37.42191111542896,19
                   -122.0850470999805,37.42178755121535,19
                   -122.0850719913391,37.42143663023161,19
@@ -770,11 +747,9 @@ Simple Tables:<br>
             <range>742.0552506670548</range>
           </LookAt>
           <Polygon>
-            <extrude>1</extrude>
-            <altitudeMode>relativeToGround</altitudeMode>
             <outerBoundaryIs>
               <LinearRing>
-                <coordinates> -77.05788457660967,38.87253259892824,100
+                <coordinates>-77.05788457660967,38.87253259892824,100
                   -77.05465973756702,38.87291016281703,100
                   -77.05315536854791,38.87053267794386,100
                   -77.05552622493516,38.868757801256,100
@@ -784,7 +759,7 @@ Simple Tables:<br>
             </outerBoundaryIs>
             <innerBoundaryIs>
               <LinearRing>
-                <coordinates> -77.05668055019126,38.87154239798456,100
+                <coordinates>-77.05668055019126,38.87154239798456,100
                   -77.05542625960818,38.87167890344077,100
                   -77.05485125901024,38.87076535397792,100
                   -77.05577677433152,38.87008686581446,100
@@ -814,11 +789,9 @@ Simple Tables:<br>
           <visibility>0</visibility>
           <styleUrl>#transBluePoly</styleUrl>
           <Polygon>
-            <tessellate>1</tessellate>
-            <altitudeMode>absolute</altitudeMode>
             <outerBoundaryIs>
               <LinearRing>
-                <coordinates> -112.3372510731295,36.14888505105317,1784
+                <coordinates>-112.3372510731295,36.14888505105317,1784
                   -112.3356128688403,36.14781540589019,1784
                   -112.3368169371048,36.14658677734382,1784
                   -112.3384408457543,36.14762778914076,1784
@@ -832,12 +805,9 @@ Simple Tables:<br>
           <visibility>0</visibility>
           <styleUrl>#transRedPoly</styleUrl>
           <Polygon>
-            <extrude>1</extrude>
-            <tessellate>1</tessellate>
-            <altitudeMode>absolute</altitudeMode>
             <outerBoundaryIs>
               <LinearRing>
-                <coordinates> -112.3396586818843,36.14637618647505,1784
+                <coordinates>-112.3396586818843,36.14637618647505,1784
                   -112.3380597654315,36.14531751871353,1784
                   -112.3368254237788,36.14659596244607,1784
                   -112.3384555043203,36.14762621763982,1784
@@ -859,11 +829,9 @@ Simple Tables:<br>
           </LookAt>
           <styleUrl>#transGreenPoly</styleUrl>
           <Polygon>
-            <tessellate>1</tessellate>
-            <altitudeMode>relativeToGround</altitudeMode>
             <outerBoundaryIs>
               <LinearRing>
-                <coordinates> -112.3349463145932,36.14988705767721,100
+                <coordinates>-112.3349463145932,36.14988705767721,100
                   -112.3354019540677,36.14941108398372,100
                   -112.3344428289146,36.14878490381308,100
                   -112.3331289492913,36.14780840132443,100
@@ -889,12 +857,9 @@ Simple Tables:<br>
           </LookAt>
           <styleUrl>#transYellowPoly</styleUrl>
           <Polygon>
-            <extrude>1</extrude>
-            <tessellate>1</tessellate>
-            <altitudeMode>relativeToGround</altitudeMode>
             <outerBoundaryIs>
               <LinearRing>
-                <coordinates> -112.3348783983763,36.1514008468736,100
+                <coordinates>-112.3348783983763,36.1514008468736,100
                   -112.3372535345629,36.14888517553886,100
                   -112.3356068927954,36.14781612679284,100
                   -112.3350034807972,36.14846469024177,100

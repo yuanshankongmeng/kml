@@ -136,8 +136,8 @@ where
         self.writer.write_event(Event::Start(
             BytesStart::new("Point").with_attributes(self.hash_map_as_attrs(&point.attrs)),
         ))?;
-        self.write_text_element("extrude", if point.extrude { "1" } else { "0" })?;
-        self.write_text_element("altitudeMode", &point.altitude_mode.to_string())?;
+        // self.write_text_element("extrude", if point.extrude { "1" } else { "0" })?;
+        // self.write_text_element("altitudeMode", &point.altitude_mode.to_string())?;
         self.write_text_element("coordinates", &point.coord.to_string())?;
         Ok(self
             .writer
@@ -635,9 +635,9 @@ where
     }
 
     fn write_geom_props(&mut self, props: GeomProps<T>) -> Result<(), Error> {
-        self.write_text_element("extrude", if props.extrude { "1" } else { "0" })?;
-        self.write_text_element("tessellate", if props.tessellate { "1" } else { "0" })?;
-        self.write_text_element("altitudeMode", &props.altitude_mode.to_string())?;
+        // self.write_text_element("extrude", if props.extrude { "1" } else { "0" })?;
+        // self.write_text_element("tessellate", if props.tessellate { "1" } else { "0" })?;
+        // self.write_text_element("altitudeMode", &props.altitude_mode.to_string())?;
         if !props.coords.is_empty() {
             self.write_text_element(
                 "coordinates",
@@ -730,7 +730,7 @@ mod tests {
             altitude_mode: types::AltitudeMode::RelativeToGround,
             ..Default::default()
         });
-        assert_eq!("<Point><extrude>0</extrude><altitudeMode>relativeToGround</altitudeMode><coordinates>1,1,1</coordinates></Point>", kml.to_string());
+        assert_eq!("<Point><coordinates>1,1,1</coordinates></Point>", kml.to_string());
     }
 
     #[test]
@@ -991,7 +991,7 @@ mod tests {
         });
 
         assert_eq!(
-            r#"<Polygon><extrude>0</extrude><tessellate>0</tessellate><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><extrude>0</extrude><tessellate>1</tessellate><altitudeMode>clampToGround</altitudeMode><coordinates>-1,2,0
+            r#"<Polygon><outerBoundaryIs><LinearRing><coordinates>-1,2,0
 -1.5,3,0
 -1.5,2,0
 -1,2,0</coordinates></LinearRing></outerBoundaryIs></Polygon>"#,
